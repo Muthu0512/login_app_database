@@ -10,7 +10,7 @@ const Login = ({handleLogin}) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const url = `http://localhost:5000/login?email=${user.email}&password=${user.password}`;
+    const url = `https://login-app-database.onrender.com/login?email=${user.email}&password=${user.password}`;
     try {
       const response = await axios.get(url);
       console.log(response);

@@ -14,7 +14,7 @@ const Signup=()=>{
         e.preventDefault()
         console.log(user)
         try {
-            const response= await axios.post("http://localhost:5000/signup",user)
+            const response= await axios.post("https://login-app-database.onrender.com/signup",user)
 
             if(response.status===201){
                 
