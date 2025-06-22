@@ -56,6 +56,10 @@ server.get("/", (req, res) => {
   res.send("welcome user");
 });
 
+server.get("/test",(req,res)=>{
+res.send("testing page api working ...")
+})
+
 server.post("/signup", async (req, res) => {
   try {
     // const email=req.body.email
