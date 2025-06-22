@@ -1,0 +1,72 @@
+.navbar {
+  /* border: solid black 2px; */
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: medium;
+  margin-top: 20px;
+  background-color: rgb(155, 192, 160);
+  color:rgb(19, 0, 3);
+  padding: 5px 10px;
+  width: 100%;
+
+  
+}
+
+
+.login,.signup{
+ /* border:solid black 2px; */
+ margin-top: 20px;
+ text-align: center;
+ width: 100%;
+ padding: 10px 20px;
+  
+}
+.heading{
+  text-align: center;
+  color: deeppink;
+}
+
+.login form,.signup form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background-color: cornflowerblue;
+  padding: 20px ;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 20px black;
+}
+.login form label{
+  margin-bottom: 5px;
+}
+
+.button{
+  background-color: teal;
+  color:black;
+  border-radius: 8px;
+  padding: 5px 10px; 
+
+  }
+  .button:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 20px maroon;
+     transition:   0.5s ease;
+     scale:1.01;
+
+    
+  }
+  .error{
+    background-color: black;
+    color:red;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  .link {
+    color:darkgreen
+  }
+  .message{
+    color:mediumblue
+  }
